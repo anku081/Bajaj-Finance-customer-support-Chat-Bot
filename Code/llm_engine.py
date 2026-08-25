@@ -75,7 +75,3 @@ def run_chat_turn(user_message:str,session_id):
 
     return response.content, tool_used
 
-# print(run_chat_turn("What is the status of my loan BFL2024001?", "rahul123"))
-
-# print(run_chat_turn("what was my last questions", "rahul123"))
-# print('current value in store',store)
